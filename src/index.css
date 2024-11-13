@@ -11,6 +11,71 @@ nav {
   height: 60px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 20px 36px;
   background-color: #f55a5a;
+}
+
+.nav--logo {
+  width: 24px;
+}
+
+.nav--title {
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: -1px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.card--image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  margin: 40px 35px;
+}
+
+.card--logo {
+  margin-left: 20px;
+  height: 10px;
+}
+
+.card--country {
+  color: #2b283a;
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+
+.card--maps {
+  color: #918e9b;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.card--title {
+  color: #2b283a;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 20px;
+}
+
+.card--dates {
+  color: #2b283a;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 10px 20px;
+}
+
+.card--description {
+  color: #2b283a;
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 10px 20px;
 }
