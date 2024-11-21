@@ -12,16 +12,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 36px;
+  color: white;
   background-color: #f55a5a;
 }
 
-.nav--logo {
+nav > img {
   width: 24px;
+  margin-right: 7px;
 }
 
-.nav--title {
-  color: #ffffff;
+.nav > h1 {
   font-size: 15px;
   letter-spacing: -1px;
   margin-left: 10px;

@@ -1,8 +1,8 @@
 function Navbar() {
     return (
         <nav>
-            <img src="./src/images/Globe.png" className="nav--logo" />
-            <h1 className="nav--title"> my travel journal.</h1>
+            <img src="./src/images/Globe.png" alt="globe icon"  />
+            <h1> my travel journal.</h1>
         </nav>
     )
 }
