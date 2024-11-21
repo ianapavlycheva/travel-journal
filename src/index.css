@@ -21,10 +21,9 @@ nav > img {
   margin-right: 7px;
 }
 
-.nav > h1 {
-  font-size: 15px;
+nav > h1 {
+  font-size: 0.9rem;
   letter-spacing: -1px;
-  margin-left: 10px;
   font-weight: 500;
 }
 
