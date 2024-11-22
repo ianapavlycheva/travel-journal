@@ -1,4 +1,4 @@
-function Navbar() {
+export default function Navbar() {
     return (
         <nav>
             <img src="./src/images/Globe.png" alt="globe icon"  />
@@ -6,5 +6,3 @@ function Navbar() {
         </nav>
     )
 }
-
-export default Navbar

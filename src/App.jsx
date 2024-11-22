@@ -2,17 +2,23 @@ import Navbar from "./components/Navbar"
 import Card from "./components/Card"
 import data from "./data"
 
-function App() {
-  return (
-    <>
-      <Navbar />
-      <div className="cards-list">
-        {data.map((item) => (
-          <Card key={item.id} item={item} />
-        ))}
-      </div>
-    </>
-  )
+export default function App() {
+    
+    const entryElements = data.map((item) => {
+        return (
+            <Card
+                key={item.id}
+                {...item}
+            />
+        )
+    })
+    
+    return (
+        <>
+            <Navbar />
+            <main className="container">
+                {entryElements}
+            </main>
+        </>
+    )
 }
-
-export default App
